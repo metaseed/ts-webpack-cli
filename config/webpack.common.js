@@ -128,18 +128,10 @@ module.exports = {
       {
         test: /\.ts$/,
         loaders: [
-          'awesome-typescript-loader',
-          'angular2-template-loader',
-          '@angularclass/hmr-loader'
+          'awesome-typescript-loader'
         ],
         exclude: [/\.(spec|e2e)\.ts$/]
       },
-      // babel-loader for pure javascript (es6)
-      {
-        'test': /\.(jsx?)$/,
-        'loaders': ['babel'],
-        'exclude': [/node_modules/]
-      }
       /*
        * Json loader support for *.json files.
        *

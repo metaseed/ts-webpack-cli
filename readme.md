@@ -11,4 +11,4 @@ This project template helps you create a whole new project with out-of-the-box
 features including typescript, webpack, babel settings and so on...
 
 Just clone this repository to your disk, you can start coding from the
-`main.ts` without worring anything about config files.
+`app/app.ts` without worring anything about config files.
